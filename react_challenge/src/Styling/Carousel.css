@@ -1,0 +1,38 @@
+.swiper{
+    width: 100vw;
+    height: 30vw;
+}
+  
+.swiper_img{
+    max-width:100%;
+    max-height: 100%;
+    object-fit: cover;
+    position: relative; 
+  top: -125px;
+}
+
+.swiper-wrapper{
+    padding-inline-start: 0;
+    height: auto;
+}
+
+.swiper_title{
+    font-size: 2rem;
+    color: white;
+}
+
+.swiper_subtitle{
+    font-size: 1rem;
+    color: white;
+}
+
+
+.swiper_text{
+    position: absolute;
+    height: fit-content;
+    top: 9%;
+    left:12%;
+    bottom:0;
+    right:0;
+    max-width: 30%
+}
