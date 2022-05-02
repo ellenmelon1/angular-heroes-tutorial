@@ -36,3 +36,15 @@
     right:0;
     max-width: 30%
 }
+
+@media(max-width: 768px){
+    .swiper{
+        height:400px;
+    }
+    .swiper_img{
+        top:0;
+        max-width: 200%;
+        max-height: 200%;
+        object-position: -20% 0;
+    }
+}

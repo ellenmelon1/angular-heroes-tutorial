@@ -5,10 +5,10 @@ import '../Styling/Header.css';
 const Header = () => {
   return (
     <section className="header_container">
-      <div className="header_content_left">
+      <div>
         <img src={logo} alt="logo" className="header_logo"></img>
       </div>
-      <div className="header_content_right">
+      <div>
         <Link to="/">HOME</Link>
         <Link to="/about-us">ABOUT US</Link>
         <Link to="/contact-us">CONTACT US</Link>
